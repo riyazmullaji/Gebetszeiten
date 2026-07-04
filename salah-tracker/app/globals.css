@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist);
+
+  --color-gold-50:  #fdf8ed;
+  --color-gold-100: #f8eccd;
+  --color-gold-200: #f0d68f;
+  --color-gold-300: #e4bc50;
+  --color-gold-400: #c9a030;
+  --color-gold-500: #b8962e;
+  --color-gold-600: #9a7a22;
+  --color-gold-700: #7c611a;
+  --color-gold-800: #5e4914;
+  --color-gold-900: #40320d;
+
+  --color-surface: #fafaf8;
+  --color-border:  #e8e3d9;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  background: var(--color-surface);
+}
