@@ -227,7 +227,6 @@ export default function EntryForm({
               <input
                 type="file"
                 accept="image/*"
-                capture="environment"
                 className="hidden"
                 onChange={(e) => setPhotoFile(e.target.files?.[0] ?? null)}
               />
